@@ -10,8 +10,8 @@ import "C"
 
 import (
 	// "fmt"
-	. "github.com/verdverm/go-pge/problems"
-	expr "github.com/verdverm/go-symexpr"
+	. "github.com/andmeier/go-pge/problems"
+	expr "github.com/andmeier/go-symexpr"
 	"reflect"
 	"unsafe"
 )
