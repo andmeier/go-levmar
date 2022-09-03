@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andreas/tmp/go-levmar/levmar-2.6
+CMAKE_SOURCE_DIR = /home/andreas/tmp2/go-levmar/levmar-2.6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andreas/tmp/go-levmar/levmar-2.6
+CMAKE_BINARY_DIR = /home/andreas/tmp2/go-levmar/levmar-2.6
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/levmar.dir/clean
 CMakeFiles/levmar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/levmar.dir/build.make CMakeFiles/levmar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/levmar.dir/build.make CMakeFiles/levmar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andreas/tmp/go-levmar/levmar-2.6/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target levmar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andreas/tmp2/go-levmar/levmar-2.6/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target levmar"
 .PHONY : CMakeFiles/levmar.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/levmar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andreas/tmp/go-levmar/levmar-2.6/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andreas/tmp2/go-levmar/levmar-2.6/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/levmar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andreas/tmp/go-levmar/levmar-2.6/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andreas/tmp2/go-levmar/levmar-2.6/CMakeFiles 0
 .PHONY : CMakeFiles/levmar.dir/rule
 
 # Convenience name for target.

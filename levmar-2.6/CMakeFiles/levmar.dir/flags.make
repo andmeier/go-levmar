@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/andreas/tmp/go-levmar/levmar-2.6
+C_INCLUDES = -I/home/andreas/tmp2/go-levmar/levmar-2.6
 
 C_FLAGS = -O2 -g -DNDEBUG
 
