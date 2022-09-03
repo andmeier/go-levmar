@@ -1,9 +1,9 @@
 package problems
 
-// #cgo LDFLAGS: -L/usr/lib  -L./levmar-2.6 -llevmar -llapack -lblas -lf2c -lm
+// #cgo LDFLAGS: -L/usr/lib  -L${SRCDIR}/levmar-2.6 -llevmar -llapack -lblas -lf2c -lm
 
 // #cgo CFLAGS: -ggdb -fPIC -m64 -pthread
-// #cgo LDFLAGS: levmar-2.6/liblevmar.a -llapack -lblas -lf2c -lm
+// #cgo LDFLAGS: ${SRCDIR}/levmar-2.6/liblevmar.a -llapack -lblas -lf2c -lm
 // #include "levmar_h.h"
 // #include "stack.h"
 import "C"
