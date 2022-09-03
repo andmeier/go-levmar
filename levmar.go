@@ -1,9 +1,9 @@
 package problems
 
-// #cgo LDFLAGS: -L/usr/lib  -L/home/tony/gocode/src/github.com/verdverm/go-levmar/levmar-2.6 -llevmar -llapack -lblas -lf2c -lm
+// #cgo LDFLAGS: -L/usr/lib  -L./levmar-2.6 -llevmar -llapack -lblas -lf2c -lm
 
 // #cgo CFLAGS: -ggdb -fPIC -m64 -pthread
-// #cgo LDFLAGS: /home/tony/gocode/src/github.com/verdverm/go-levmar/levmar-2.6/liblevmar.a -llapack -lblas -lf2c -lm
+// #cgo LDFLAGS: levmar-2.6/liblevmar.a -llapack -lblas -lf2c -lm
 // #include "levmar_h.h"
 // #include "stack.h"
 import "C"
